@@ -104,13 +104,3 @@ All screenshots use demo accounts and sample data with fictional names. Back to 
 <td width="20%"><img src="../assets/screenshots/seller/seller-m01-dashboard.webp" alt="Supplier dashboard on a phone"></td>
 </tr>
 </table>
-
-## The research behind it
-
-<table>
-<tr>
-<td width="33%"><img src="../assets/screenshots/public/17-research-ground-reality.webp" alt="Research page: the ground reality of Malegaon's textile cluster"><br><sub>Field research.</sub></td>
-<td width="33%"><img src="../assets/screenshots/public/18-research-five-numbers.webp" alt="Five numbers that explain the structural trap"><br><sub>The numbers behind the problem.</sub></td>
-<td width="33%"><img src="../assets/screenshots/public/19-research-malegaon-vs-ichalkaranji.webp" alt="Malegaon compared with Ichalkaranji"><br><sub>Malegaon vs. Ichalkaranji.</sub></td>
-</tr>
-</table>

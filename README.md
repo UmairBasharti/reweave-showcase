@@ -15,7 +15,7 @@
 | **What** | A verified discovery registry with consent-based contact exchange |
 | **For** | Fabric buyers, powerloom weavers and raw-material suppliers in Malegaon, India |
 | **Status** | Live demo and pilot (not a commercial service) |
-| **My scope** | Product design, front end, API, database, deployment and testing, built end to end |
+| **My scope** | Sole developer: product design, front end, API, database, deployment and testing |
 | **Stack** | Next.js 16, React 19, Supabase, Clerk, Vercel |
 | **Size** | 40 pages, 43 API routes, 16 tables, 56 unit tests |
 
@@ -23,9 +23,11 @@
 
 ## The problem
 
-Malegaon is one of India's large powerloom clusters. The project's field research puts it at roughly **6,000 production units, 350K+ looms and 12M+ metres of cloth a day**. Yet **78% of that output is sold through a middleman first and only 14% reaches manufacturers directly**; about 8% moves through any digital channel. Weavers depend on one channel, and buyers and suppliers have no trusted way to find them directly.
+Malegaon is one of India's large powerloom clusters, and its production is concentrated and old-fashioned. In my field study, **80% of looms were plain powerlooms**, and output was mostly grey cotton (45%) and grey polyester (38%). Selling is just as concentrated: **78% of the buyers in the study were local traders and brokers, 14% were garment manufacturers buying directly, and 8% came through digital or B2B platforms**. Weavers depend on one channel, and buyers and suppliers have no trusted way to find them directly.
 
-ReWeave does not try to remove traders. It **adds a direct channel**. (These are Malegaon-wide figures from the research published on the site, not results of ReWeave itself.)
+ReWeave does not try to remove traders. It **adds a direct channel**.
+
+*These figures come from my own field study of the cluster, not from ReWeave's usage. The study used judgmental and convenience sampling (interviews with loom owners, weavers, traders and others), so treat the numbers as indicative rather than statistically representative.*
 
 ## The idea: consent before contact
 
@@ -187,7 +189,7 @@ Next: expiring requests, complete account deletion, a Hindi/Urdu interface, What
 
 ## About
 
-Built by **[Umair Basharti](https://github.com/UmairBasharti)** as an MCA final-year project at Dr. B.V. Hiray College of Management & Research Centre, Malegaon. It is grounded in field research on the Malegaon textile cluster, presented at an interdisciplinary national conference (Bhusawal Arts College, September 2025) and published on the site's Research page.
+Designed and built by **[Umair Basharti](https://github.com/UmairBasharti)**, as the idea, the research and the code. It grew out of a semester of field research on the Malegaon textile cluster (my MCA research project at Dr. B.V. Hiray College of Management & Research Centre, Malegaon), which I then turned into a working product. The research is summarised on the live site's Research page.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/umair-basharti) · [GitHub](https://github.com/UmairBasharti)
 
