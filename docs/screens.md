@@ -17,6 +17,10 @@ All screenshots use demo accounts and sample data with fictional names. Back to 
 <td width="50%"><img src="../assets/screenshots/public/13-about-how-it-works-buyer.webp" alt="How it works for a buyer"><br><sub>How it works for a buyer.</sub></td>
 <td width="50%"><img src="../assets/screenshots/public/14-about-how-it-works-weaver.webp" alt="How it works for a weaver"><br><sub>How it works for a weaver.</sub></td>
 </tr>
+<tr>
+<td width="50%"><img src="../assets/screenshots/public/02-landing-scale-of-operation.webp" alt="Landing page section showing the scale of Malegaon's textile cluster"><br><sub>The scale of the cluster, on the landing page.</sub></td>
+<td width="50%"><img src="../assets/screenshots/public/20-vision-hero.webp" alt="The Vision page hero"><br><sub>The Vision page.</sub></td>
+</tr>
 </table>
 
 ## Joining
@@ -102,5 +106,15 @@ All screenshots use demo accounts and sample data with fictional names. Back to 
 <td width="20%"><img src="../assets/screenshots/buyer/buyer-m03-connections.webp" alt="Buyer connections on a phone"></td>
 <td width="20%"><img src="../assets/screenshots/weaver/weaver-m03-connections.webp" alt="Weaver connections on a phone"></td>
 <td width="20%"><img src="../assets/screenshots/seller/seller-m01-dashboard.webp" alt="Supplier dashboard on a phone"></td>
+</tr>
+</table>
+
+## The research behind it
+
+<table>
+<tr>
+<td width="33%"><img src="../assets/screenshots/public/17-research-ground-reality.webp" alt="Research page: the ground reality of Malegaon's textile cluster"><br><sub>Field research.</sub></td>
+<td width="33%"><img src="../assets/screenshots/public/18-research-five-numbers.webp" alt="Five numbers that explain the structural trap"><br><sub>The numbers behind the problem.</sub></td>
+<td width="33%"><img src="../assets/screenshots/public/19-research-malegaon-vs-ichalkaranji.webp" alt="Malegaon compared with Ichalkaranji"><br><sub>Malegaon vs. Ichalkaranji.</sub></td>
 </tr>
 </table>

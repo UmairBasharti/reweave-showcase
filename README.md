@@ -23,11 +23,25 @@
 
 ## The problem
 
-Malegaon is one of India's large powerloom clusters. Union Textile Minister Giriraj Singh described it as **about 3.5 lakh powerlooms and 2 lakh workers**, with daily output touching 3.5 crore metres of grey fabric in the 2025 festive season ([post on X, 25 Oct 2025](https://x.com/girirajsinghbjp/status/1981973931805626818)). Its production is concentrated and old-fashioned. In my field study, **80% of looms were plain powerlooms**, and output was mostly grey cotton (45%) and grey polyester (38%). Selling is just as concentrated: **78% of the buyers in the study were local traders and brokers, 14% were garment manufacturers buying directly, and 8% came through digital or B2B platforms**. Weavers depend on one channel, and buyers and suppliers have no trusted way to find them directly.
+Malegaon is one of India's large powerloom clusters.
 
-ReWeave does not try to remove traders. It **adds a direct channel**.
+**Scale**
 
-*These figures come from my own field study of the cluster, not from ReWeave's usage. The study used judgmental and convenience sampling (interviews with loom owners, weavers, traders and others), so treat the numbers as indicative rather than statistically representative.*
+- About **6,000 production units** (my research summary on the [live Research page](https://reweave-red.vercel.app/research)).
+- **3.5 lakh powerlooms and 2 lakh workers**, as stated by Union Textile Minister Giriraj Singh ([post on X, 25 Oct 2025](https://x.com/girirajsinghbjp/status/1981973931805626818)).
+- About **1.2 crore metres of cloth a day** (Research page). The minister's post puts the 2025 festive peak at **3.5 crore metres a day**.
+- **₹3,974 Cr a year** of turnover (Research page). The minister's post cites **₹1,500 Cr of grey fabric in a single festive month**.
+- **83% of output** leaves the city for dyeing and finishing in Surat, Rajasthan and Bhiwandi, so Malegaon earns raw-cloth prices (Research page).
+
+**Structure (my own field study)**
+
+- **80% of looms are plain powerlooms**, and output is mostly grey cotton (45%) and grey polyester (38%).
+- **78% of buyers are local traders and brokers**, 14% are garment manufacturers buying directly, and 8% come through digital or B2B platforms.
+- **46% of loom owners** are interested in modernising but hesitant because of past failures.
+
+Weavers depend on one channel, and real buyers have no trusted way to reach them directly. **ReWeave is a single direct window**: one place where direct buyers reach Malegaon's weavers and suppliers, with every contact consent-based.
+
+*The scale figures are quoted from the sources named. The structure percentages come from my own field study of the cluster (interviews with loom owners, weavers, traders and others, chosen by judgmental and convenience sampling), so treat them as indicative rather than statistically representative. None of these are results of ReWeave's own usage.*
 
 ## The idea: consent before contact
 
