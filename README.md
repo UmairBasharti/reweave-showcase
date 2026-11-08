@@ -10,6 +10,15 @@
 
 > **About this repository.** It holds documentation, diagrams and screenshots only. The application's source code is in a private repository, and I'm happy to walk through it on a call.
 
+| At a glance | |
+|---|---|
+| **What** | A verified discovery registry with consent-based contact exchange |
+| **For** | Fabric buyers, powerloom weavers and raw-material suppliers in Malegaon, India |
+| **Status** | Live demo and pilot (not a commercial service) |
+| **My scope** | Product design, front end, API, database, deployment and testing, built end to end |
+| **Stack** | Next.js 16, React 19, Supabase, Clerk, Vercel |
+| **Size** | 40 pages, 43 API routes, 16 tables, 56 unit tests |
+
 ---
 
 ## The problem
@@ -179,6 +188,8 @@ Next: expiring requests, complete account deletion, a Hindi/Urdu interface, What
 ## About
 
 Built by **[Umair Basharti](https://github.com/UmairBasharti)** as an MCA final-year project at Dr. B.V. Hiray College of Management & Research Centre, Malegaon. It is grounded in field research on the Malegaon textile cluster, presented at an interdisciplinary national conference (Bhusawal Arts College, September 2025) and published on the site's Research page.
+
+**Connect:** [LinkedIn](https://www.linkedin.com/in/umair-basharti) · [GitHub](https://github.com/UmairBasharti)
 
 **Try it:** [reweave-red.vercel.app](https://reweave-red.vercel.app). Create an account (an email code confirms it) and pick any role. Sign-in currently runs on development-mode auth keys.
 
