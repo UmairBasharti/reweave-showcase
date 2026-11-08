@@ -23,7 +23,7 @@
 
 ## The problem
 
-Malegaon is one of India's large powerloom clusters, and its production is concentrated and old-fashioned. In my field study, **80% of looms were plain powerlooms**, and output was mostly grey cotton (45%) and grey polyester (38%). Selling is just as concentrated: **78% of the buyers in the study were local traders and brokers, 14% were garment manufacturers buying directly, and 8% came through digital or B2B platforms**. Weavers depend on one channel, and buyers and suppliers have no trusted way to find them directly.
+Malegaon is one of India's large powerloom clusters. Union Textile Minister Giriraj Singh described it as **about 3.5 lakh powerlooms and 2 lakh workers**, with daily output touching 3.5 crore metres of grey fabric in the 2025 festive season ([post on X, 25 Oct 2025](https://x.com/girirajsinghbjp/status/1981973931805626818)). Its production is concentrated and old-fashioned. In my field study, **80% of looms were plain powerlooms**, and output was mostly grey cotton (45%) and grey polyester (38%). Selling is just as concentrated: **78% of the buyers in the study were local traders and brokers, 14% were garment manufacturers buying directly, and 8% came through digital or B2B platforms**. Weavers depend on one channel, and buyers and suppliers have no trusted way to find them directly.
 
 ReWeave does not try to remove traders. It **adds a direct channel**.
 
@@ -189,7 +189,7 @@ Next: expiring requests, complete account deletion, a Hindi/Urdu interface, What
 
 ## About
 
-Designed and built by **[Umair Basharti](https://github.com/UmairBasharti)**, as the idea, the research and the code. It grew out of a semester of field research on the Malegaon textile cluster (my MCA research project at Dr. B.V. Hiray College of Management & Research Centre, Malegaon), which I then turned into a working product. The research is summarised on the live site's Research page.
+Designed and built by **[Umair Basharti](https://github.com/UmairBasharti)**, as the idea, the research and the code. It grew out of a semester of field research on the Malegaon textile cluster (my MCA research project at Dr. B.V. Hiray College of Management & Research Centre, Malegaon), which I then turned into a working product. The research was published in the Akshardhara Research Journal (E-ISSN 3048-8095), presented at an Interdisciplinary National Conference at Bhusawal Arts College in September 2025, and is summarised on the live site's Research page.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/umair-basharti) · [GitHub](https://github.com/UmairBasharti)
 
