@@ -114,12 +114,20 @@ Members upload **Aadhaar, PAN and GST documents** (at least two). An admin revie
 
 ## Sharing that works outside the app
 
-Orders and listings can be shared to WhatsApp (native share sheet on phones, a share window on desktop). The link opens a **public page with no contact details**, and chat apps show a **generated preview card**. A visitor who joins from the link lands with the reply dialog already open (for recent items).
+Orders and listings can be shared to WhatsApp (native share sheet on phones, a share window on desktop). The link opens a **public page with no contact details**, and chat apps show a **generated preview card**: a fabric swatch for an order, and the seller's own photo for a listing. The cards show only what the public page already shows, never a contact detail. A visitor who joins from the link lands with the reply dialog already open (for recent items).
 
 <table>
 <tr>
-<td width="40%"><img src="assets/screenshots/public/23-public-order-link-preview.webp" alt="Generated link preview card for a buyer order"><br><sub>The preview card, generated per order.</sub></td>
+<td width="33%"><img src="assets/screenshots/public/23-link-preview-order.webp" alt="Preview card for a buyer order: a cotton swatch, the fabric name and the quantity in metres"><br><sub><b>An order.</b> A swatch in the fabric's colour, the fabric and the quantity.</sub></td>
+<td width="33%"><img src="assets/screenshots/public/24-link-preview-listing.webp" alt="Preview card for a material listing: the seller's photo, the material name and the price"><br><sub><b>A listing.</b> The seller's first photo, the material and the price.</sub></td>
+<td width="33%"><img src="assets/screenshots/public/25-link-preview-site.webp" alt="Preview card for the site link, with the tagline Connection, Not Commerce"><br><sub><b>The site.</b> A fixed card, so the link previews instantly.</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td width="40%"><img src="assets/screenshots/public/21-public-order-page.webp" alt="Public order page, signed out, showing no contact details"><br><sub>The public page: no sign-in, no contact details.</sub></td>
+<td width="40%"><img src="assets/screenshots/public/22-public-listing-page.webp" alt="Public material listing page, signed out"><br><sub>A listing's public page.</sub></td>
 <td width="20%"><img src="assets/screenshots/public/m06-public-order-page.webp" alt="Public order page on a phone"><br><sub>On a phone.</sub></td>
 </tr>
 </table>
@@ -178,7 +186,7 @@ Roughly 25K lines of JavaScript across about 150 files, with 40 pages and 43 API
 - **Defence in depth.** Every write checks identity, role and ownership. Row-level security is on for all 16 tables as a backstop. The browser never receives a database key.
 - **Careful uploads.** File type and size checks, plus a check of the file's real leading bytes, so a renamed file is rejected. IDs go in a private bucket.
 - **Security headers and rate limits.** A content security policy, HSTS, frame denial, and three rate-limit tiers (public, signed-in, admin).
-- **Link previews generated at the edge** (1200×630 cards) for every shared order and listing.
+- **Link previews for every shared post.** A 1200×630 JPEG card per order and listing (a fabric swatch, or the seller's photo), built only from fields the public page already shows. The site link uses a fixed card.
 - **Notifications that respect people's time.** Instant in-app alerts, and a once-a-day email digest for members who have been away.
 - **Privacy by default.** Analytics start only after a visitor accepts cookies.
 

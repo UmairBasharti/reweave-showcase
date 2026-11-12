@@ -99,7 +99,7 @@ A closed order shows an "Order Closed" overlay, and an inactive listing shows "L
 
 <table>
 <tr>
-<td width="33%"><img src="../assets/screenshots/public/23-public-order-link-preview.webp" alt="Generated link preview card for an order"><br><sub>The preview card in the chat.</sub></td>
+<td width="33%"><img src="../assets/screenshots/public/23-link-preview-order.webp" alt="Generated link preview card for an order"><br><sub>The preview card in the chat.</sub></td>
 <td width="33%"><img src="../assets/screenshots/public/21-public-order-page.webp" alt="Public order page for signed-out visitors"><br><sub>The public order page.</sub></td>
 <td width="33%"><img src="../assets/screenshots/public/22-public-listing-page.webp" alt="Public material listing page"><br><sub>The public listing page.</sub></td>
 </tr>

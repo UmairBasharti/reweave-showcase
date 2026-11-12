@@ -8,7 +8,7 @@ flowchart LR
     subgraph V["Vercel"]
         P["Proxy<br/>maintenance, sign-in, roles, account status"] --> A["Next.js App Router<br/>pages and API routes"]
         C["Daily cron<br/>08:00 UTC digest"] --> A
-        OG["Edge function<br/>link-preview cards"]
+        OG["Next.js route<br/>link-preview cards"]
     end
     A --> CL["Clerk<br/>sign-in and sessions"]
     A --> SB[("Supabase<br/>Postgres and Storage")]
@@ -60,7 +60,9 @@ If the rate limiter or the maintenance-mode lookup is unreachable, requests are 
 Events (a reply, a contact request, an acceptance or decline, a verification decision, an announcement) create an in-app notification, shown in a bell that refreshes every 60 seconds. Email is sent for the welcome message, verification decisions and announcements. For members who have been away, a **daily digest** (a Vercel cron at 08:00 UTC) emails one summary of anything unread. The cron endpoint refuses requests without a secret.
 
 ### Link previews
-When an order or listing is shared, chat apps fetch the public page and read its tags. The title, description and a **1200×630 image generated on the fly** (an edge function) make a clean preview card. The public pages are viewable without signing in and never include contact details.
+When an order or listing is shared, chat apps fetch the public page and read its tags. The page's metadata points at a **1200×630 card generated on the fly** by a Next.js route (`/api/og`, Node runtime, rate limited). An order gets a woven swatch in the fabric's colour with the quantity. A listing gets the seller's first photo in a taped-print frame, or a picture of the material category when there is no photo. The card carries **only what the public page already shows**, never a contact detail.
+
+The photo is fetched from the storage bucket by file path: the route builds the address itself and accepts only a strict file-name pattern, so a crafted link cannot make it fetch anything else. The photo is shrunk and the card is returned as a **JPEG of about 100 KB**, which keeps WhatsApp previews working. The site link itself uses a fixed image, so it previews instantly.
 
 ### Verification and files
 Members upload ID documents; admins approve or reject; approved members get a Verified badge. Uploads are checked for **type, size and the file's real leading bytes**, so a renamed file is refused. ID documents live in a **private bucket**, and admins open them only through **one-hour signed links**.
