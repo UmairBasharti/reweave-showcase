@@ -38,7 +38,7 @@ A fifth, smaller one: a user-supplied name was inserted into an HTML dialog with
 
 ## Testing and delivery
 
-- **56 unit tests** (Node's built-in runner) cover the Zod validation schemas, the escaping, search-sanitising, client-IP and upload-signature helpers, and the lists of public and admin routes.
+- **65 unit tests** (Node's built-in runner) cover the Zod validation schemas, the escaping, search-sanitising, client-IP and upload-signature helpers, and the lists of public and admin routes.
 - **Migration tests** apply all migration files, in order, to an empty in-memory Postgres (PGlite, with small stand-ins for Supabase's own schemas). They check that each file applies, that file numbers have no gaps, that no file drops a schema or inserts members, and that the result has the 16 tables, the verification types and the three buckets. I checked the test can fail by restoring the old broken file name.
 - **CI** runs lint, the tests and a production build on every push and pull request. **Lint** has no errors.
 - **Not done yet:** browser (end-to-end) tests.

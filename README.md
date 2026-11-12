@@ -17,7 +17,7 @@
 | **Status** | Live demo and pilot (not a commercial service) |
 | **My scope** | Sole developer: product design, front end, API, database, deployment and testing |
 | **Stack** | Next.js 16, React 19, Supabase, Clerk, Vercel |
-| **Size** | 40 pages, 43 API routes, 16 tables, 56 unit tests |
+| **Size** | 40 pages, 43 API routes, 16 tables, 65 unit tests |
 
 ---
 
@@ -192,7 +192,7 @@ Roughly 25K lines of JavaScript across about 150 files, with 40 pages and 43 API
 
 ## Quality and process
 
-- **56 unit tests** cover input validation, escaping, search sanitising, upload checks and the public and admin route lists. They also **apply all database migrations to an empty throwaway Postgres** and check the result: 16 tables, no seed data, the expected storage buckets.
+- **65 unit tests** cover input validation, escaping, search sanitising, upload checks and the public and admin route lists. They also **apply all database migrations to an empty throwaway Postgres** and check the result: 16 tables, no seed data, the expected storage buckets.
 - **CI** runs lint, tests and a production build on every push and pull request.
 - **Lint** has no errors.
 - Found and fixed along the way: migrations that could not rebuild a database in order (one even began by dropping the schema), and a missing migration that made ID uploads fail. The story is in [engineering notes](docs/engineering-notes.md).
